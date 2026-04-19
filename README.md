@@ -1,4 +1,4 @@
-Expense Tracker App
+MONEY MANAGE APP
 
 A simple and responsive Expense Tracker App built using React.js.
 This project helps users manage their income and expenses, calculate balance, and store transactions using Local Storage.
