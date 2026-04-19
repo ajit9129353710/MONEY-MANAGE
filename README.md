@@ -1,16 +1,94 @@
-# React + Vite
+Expense Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Expense Tracker App built using React.js.
+This project helps users manage their income and expenses, calculate balance, and store transactions using Local Storage.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
 
-## React Compiler
+- Add Income and Expense Transactions
+- Delete Transactions
+- Auto Calculate Total Balance
+- Separate Income and Expense Summary
+- Data Saved in Local Storage
+- Responsive and Clean UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- JavaScript
+- CSS
+- HTML
+- Local Storage
+
+---
+
+📸 Project Preview
+
+Expense Tracker App where user can:
+
+- Enter Description
+- Enter Amount
+  - Positive Amount = Income
+  - Negative Amount = Expense
+- Add Transaction
+- Delete Transaction
+
+---
+
+📂 Project Structure
+
+src/
+ ┣ App.jsx
+ ┣ App.css
+ ┣ main.jsx
+
+---
+
+⚙️ Installation & Setup
+
+1. Clone the repository
+
+git clone <your-repository-link>
+
+2. Go to project folder
+
+cd expense-tracker
+
+3. Install dependencies
+
+npm install
+
+4. Run project
+
+npm run dev
+
+---
+
+💡 How It Works
+
+- User enters transaction name and amount.
+- If amount is positive → Income
+- If amount is negative → Expense
+- App updates balance automatically.
+- Data is stored in browser Local Storage.
+
+---
+
+📌 Example
+
+- Salary = +5000
+- Food = -500
+- Rent = -2000
+
+Balance = ₹2500
+
+---
+
+
+⭐ If you like this project
+
+Give this repository a star on GitHub.
